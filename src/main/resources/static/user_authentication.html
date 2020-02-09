@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Данные тестируемого</title>
+	<link rel="stylesheet" type="text/css" href="user_authentication.css">
+</head>
+
+
+<body>
+	<h1>Данные тестируемого</h1>
+
+	<div class="container">
+		<form  onsubmit="submitForm(event);" onreset="resetForm(event);">
+			<div>
+				<label for="lastName">Фамилия: </label>
+				<input type="text" id="lastName" name="lastName" placeholder="Фамилия">
+			</div>
+
+			<div>
+				<label for="firstName">Имя: </label>
+				<input type="text" id="firstName" name="firstName" placeholder="Имя">
+			</div>
+
+			<div>
+				<label for="phone">Номер телефона: </label>
+				<input type="text" id="phone" name="phone" placeholder="Номер телефона">
+			</div>
+
+			<div>
+				<label for="eMail">E-mail: </label>
+				<input type="text" id="eMail" name="eMail" placeholder="E-mail">
+			</div>
+
+			<div>
+				<input type="reset" value="Очистить">
+				<input type="submit" value="Подтвердить и начать тестирование">
+			</div>
+		</form>
+	</div>
+
+	<script type="text/javascript" src="user_authentication.js"></script>
+
+</body>
+</html>

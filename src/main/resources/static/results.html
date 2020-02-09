@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Результаты тестирования</title>
+	<link rel="stylesheet" type="text/css" href="results.css">
+</head>
+
+<body>
+	<h1>Результаты тестирования</h1>
+
+	<header>
+		<div>
+			<h3>Данные о пользователе</h1>
+			<p id="userDataTemplate">Шаблон данных о пользователе</p>
+		</div>
+	</header>
+
+	<main>
+		<div>
+			<h3>Результаты ответов на вопросы</h3>
+			<h5 id="questionTemplate">Шаблон вопроса</h5>
+			<p id="anwserTemplate">Шаблон ответа на вопрос</p>
+		</div>
+	</main>
+
+	<footer>
+		<div>
+			<h3>Статистика по всем пользователям</h3>
+			<table id="resultStatisticTable" border="3px">
+				<thead>
+					<tr>
+						<th width="40%"><div class="vertical-text">Пользователь</div></th>
+						<th width="10%"><div class="vertical-text">К-во попыток</div></th>
+						<th width="15%"><div class="vertical-text">Среднее к-во<br> правильных ответов</div></th>
+						<th width="20%"><div class="vertical-text">Дата последней попытки</div></th>
+						<th width="15%"><div class="vertical-text">Последнее к-во правильных ответов</div></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr id="resultStatisticTable_RowTemplate">
+						<td>1</td>
+						<td style="text-align: center">2</td>
+						<td style="text-align: center">3</td>
+						<td>4</td>
+						<td style="text-align: center">5</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</footer>
+
+	<button id="goToUserAuthenticanion" onclick="goToUserAuthenticanion(event);">Вернуться на страницу регистрации</button>
+	
+
+	<script type="text/javascript" src="results.js"></script>
+
+</body>
+</html>

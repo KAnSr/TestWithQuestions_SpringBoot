@@ -1,0 +1,95 @@
+@import url("reset.css");
+
+body {
+	background: linear-gradient(to right, #ccc, #fff, white, white, white, #fff, #ccc);
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 30px auto;
+	text-align: center;
+}
+
+
+h3 {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 10px auto 30px;
+	text-align: center;
+}
+
+
+h5 {
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+header, main, footer {
+	max-width: 800px;
+	background-color: #eee;
+	margin: 30px auto;
+	padding: 10px 0;
+	border: 1px solid #bbb;
+	border-radius: 20px;
+	box-shadow: 5px 5px 20px #bbb;
+}
+
+header > div, main > div {
+	margin: 20px 50px;
+	max-width: 700px;
+}
+
+footer > div {
+	margin: 20px 20px;
+	max-width: 760px;
+}
+
+
+table, tr, th, td {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+table {
+	width: 100%;
+}
+
+th {
+	text-align: center;
+}
+
+.vertical-text {
+	/*writing-mode: vertical-rl;*/
+	/*transform: rotate(180deg);*/
+	width: 100%;
+	margin: auto 0;
+	/*vertical-align: middle;*/
+}
+
+p {
+	margin-top: 3px;
+}
+
+.wrongAnswer {
+	color: #FF0000;
+}
+
+.correctAnswer {
+	color: #008000;
+}
+
+
+button {
+	width: 250px;
+	margin: auto;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 10px;
+	display: block;
+}
+
+#goToUserAuthenticanion {
+	background: linear-gradient(to right, #ffcccc, white, white, white, white, #ffcccc);
+}
